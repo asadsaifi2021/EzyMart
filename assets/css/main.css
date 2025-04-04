@@ -881,12 +881,13 @@ section,
 }
 
 .hero-title{
-  font-size: xx-large;
-  color: #F5F5F5;
+  font-size: 400rem;
+  color: white;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 .hero-subtitle{
-  color: #F5F5F5;
+  color:white;
   font-size: x-large;
 }
 
@@ -901,10 +902,15 @@ section,
 
 .hero .carousel-item:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 60%);
+  /* background: color-mix(in srgb, var(--background-color), transparent 80%); */
   position: absolute;
   inset: 0;
   z-index: 2;
+}
+
+.hero .carousel-item h1, 
+.hero .carousel-item p {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 .hero .carousel-container {

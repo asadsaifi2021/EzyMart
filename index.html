@@ -8,8 +8,8 @@
     <meta name="keywords" content="" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="assets/img/clients/logo.png" rel="icon" />
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
@@ -77,7 +77,7 @@
         >
           <a href="index.html" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <img src="assets/img/logo.png" alt="" />
             <h1 class="sitename">EzyMart</h1>
           </a>
 
@@ -112,7 +112,7 @@
           data-bs-interval="5000"
         >
           <div class="carousel-item active">
-            <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="" />
+            <img src="assets/img/hero-carousel/hero-carousel-1.webp" alt="" />
             <div class="carousel-container">
               <h2 class="hero-title">Welcome to EzyMart</h2>
               <p class="hero-subtitle">
@@ -136,6 +136,28 @@
 
         <div class="container">
           <div class="row g-5">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item item-pink position-relative">
+                <i class="bi bi-bar-chart-steps icon"></i>
+                <h3>
+                  <a class="read-more stretched-link"
+                    >Product Browsing and Discovery</a
+                  >
+                </h3>
+                <p>
+                  Visually appealing interface with horizontal sliders for
+                  featured products and offers. Items are categorized (Fruits,
+                  Vegetables, Dairy, Bakery, Meat, Grocery) with dedicated
+                  screens. Each product shows price, origin, availability,
+                  nutrition, and real-time stock info
+                </p>
+              </div>
+            </div>
+
             <div
               class="col-lg-4 col-md-6"
               data-aos="fade-up"
@@ -249,7 +271,7 @@
                 </h3>
                 <p>
                   Know what’s in stock before you shop — with real-time product
-                  availability updates.
+                  availability updates
                 </p>
               </div>
             </div>
@@ -261,7 +283,7 @@
               data-aos-delay="600"
             >
               <div class="service-item item-pink position-relative">
-                <i class="bi bi-bell icon"></i>
+                <i class="bi bi-bell icon" style="color: #1d19e7"></i>
                 <h3>
                   <a class="read-more stretched-link">Notifications System</a>
                 </h3>
@@ -280,7 +302,7 @@
               data-aos-delay="600"
             >
               <div class="service-item item-pink position-relative">
-                <i class="bi bi-clock-history icon"></i>
+                <i class="bi bi-clock-history icon" style="color: #00ff9d"></i>
                 <h3>
                   <a class="read-more stretched-link">Order History</a>
                 </h3>
@@ -298,7 +320,7 @@
               data-aos-delay="600"
             >
               <div class="service-item item-pink position-relative">
-                <i class="bi bi-text-left icon"></i>
+                <i class="bi bi-text-left icon" style="color: #ff00ea"></i>
                 <h3>
                   <a class="read-more stretched-link">Nutritional Facts</a>
                 </h3>
@@ -316,32 +338,10 @@
               data-aos-delay="600"
             >
               <div class="service-item item-pink position-relative">
-                <i class="bi bi-bar-chart-steps icon"></i>
-                <h3>
-                  <a class="read-more stretched-link"
-                    >Product Browsing and Discovery</a
-                  >
-                </h3>
-                <p>
-                  Features a visually appealing interface with horizontal
-                  sliders showcasing featured products and exclusive offers.
-                  Products are organized into categories (Fruits, Vegetables,
-                  Dairy, Bakery, Meat, Grocery) with dedicated category screens.
-                  Detailed product information including price, origin,
-                  availability, and nutritional information. Real-time stock
-                  information showing which products are available and in what
-                  quantities
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <div class="service-item item-pink position-relative">
-                <i class="bi bi-check-square icon"></i>
+                <i
+                  class="bi bi-question-circle icon"
+                  style="color: #ff0000"
+                ></i>
                 <h3>
                   <a class="read-more stretched-link">FAQ System</a>
                 </h3>
@@ -349,7 +349,7 @@
                   FAQ section helps users quickly find answers to common
                   questions. Organized by topic, it guides users in navigating
                   and interacting with the app efficiently. FAQ content is
-                  stored in the database for easy management and updates.
+                  stored in the database for easy management and updates
                 </p>
               </div>
             </div>
@@ -564,6 +564,62 @@
             <div
               class="col-lg-4 col-md-6 card"
               data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <span>05</span>
+              <h4>Did any features work better than expected?</h4>
+
+              <p>
+                <strong>Features That Exceeded Expectations:</strong> Several
+                features turned out to be more robust, seamless, or
+                user-friendly than initially anticipated.
+              </p>
+
+              <p>
+                <strong>Database Fault Tolerance:</strong> Our system
+                demonstrated sophisticated error recovery by automatically
+                detecting failures, falling back to alternate persistence
+                methods, and self-healing without requiring any user
+                intervention. This significantly improved the reliability of the
+                app.
+              </p>
+
+              <p>
+                <strong>Offline Functionality:</strong> We were surprised by how
+                smoothly the app performed offline. Non-authenticated users
+                could browse and manage their cart even without an internet
+                connection, resulting in a more resilient and accessible
+                shopping experience.
+              </p>
+
+              <p>
+                <strong>Session Management:</strong> The transition between
+                guest and authenticated user states worked flawlessly. The
+                automatic cart transfer on login ensured that users never lost
+                their progress, enhancing overall usability.
+              </p>
+
+              <p>
+                <strong>Search System:</strong> Our search feature evolved
+                across multiple iterations and became a powerful tool for
+                product discovery. Its filtering capabilities were intuitive and
+                exceeded our original expectations in terms of both performance
+                and user experience.
+              </p>
+
+              <p>
+                <strong>Nutrition Information:</strong> We used the decorator
+                pattern to elegantly layer nutritional details onto products.
+                This enhanced the user experience without disrupting the core
+                system architecture, proving both clean and extensible in
+                design.
+              </p>
+            </div>
+            <!-- End Card Item -->
+
+            <div
+              class="col-lg-4 col-md-6 card"
+              data-aos="fade-up"
               data-aos-delay="100"
             >
               <span>03</span>
@@ -628,26 +684,80 @@
               data-aos-delay="400"
             >
               <span>04</span>
-              <h4>Personalized Shopping Experience</h4>
-              <p>
-                Create an account to enjoy a customized shopping experience with
-                saved shopping lists, easy repeat orders, and special offers
-                tailored to your preferences.
-              </p>
-            </div>
-            <!-- End Card Item -->
+              <h4>
+                Are there any particular design smells, or brilliant design
+                decisions?
+              </h4>
 
-            <div
-              class="col-lg-4 col-md-6 card"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <span>05</span>
-              <h4>Support for Local Farmers</h4>
               <p>
-                By partnering with local farmers and suppliers, EzyMart helps
-                you access fresh, locally sourced produce while supporting your
-                community and reducing carbon emissions.
+                <strong>Design Smells:</strong> While our architecture had
+                strengths, several design issues were identified during
+                development.
+              </p>
+
+              <p>
+                <strong>Service Locator Complexity:</strong> The
+                <code>Services</code> class violates the Single Responsibility
+                Principle by handling multiple concerns such as connection
+                management, persistence creation, and error handling. This made
+                it harder to test and maintain.
+              </p>
+
+              <p>
+                <strong>Dependency Inversion Issues:</strong> The business layer
+                directly depends on the <code>Services</code> class rather than
+                using proper dependency injection, resulting in tighter coupling
+                and reduced flexibility.
+              </p>
+
+              <p>
+                <strong>Inconsistent Error Handling:</strong> We observed a mix
+                of null returns, boolean indicators, and exceptions across the
+                codebase, which led to inconsistent behavior and made debugging
+                more challenging.
+              </p>
+
+              <p>
+                <strong>Inheritance Over Composition:</strong> Some classes
+                relied on inheritance where composition would have provided
+                better modularity and more maintainable code.
+              </p>
+
+              <p>
+                <strong>Brilliant Design Decisions:</strong> Despite the above,
+                the project featured a number of thoughtful architectural
+                choices that greatly benefited development.
+              </p>
+
+              <p>
+                <strong>Three-Tier Architecture:</strong> We maintained a clear
+                separation between presentation, business logic, and data access
+                layers, which helped keep the codebase organized and scalable.
+              </p>
+
+              <p>
+                <strong>Multiple Persistence Implementations:</strong> Our
+                system supported HSQLDB, stubs, and SharedPreferences with
+                runtime switching, making the application flexible and easy to
+                test in different environments.
+              </p>
+
+              <p>
+                <strong>Robust Fault Tolerance:</strong> We implemented
+                sophisticated error recovery and automatic fallback mechanisms,
+                improving reliability and user experience.
+              </p>
+
+              <p>
+                <strong>Extension Mechanism:</strong> Clean extension points
+                allowed us to add new features without modifying the core
+                architecture, which is a hallmark of good design.
+              </p>
+
+              <p>
+                <strong>Session Management:</strong> The transition between
+                guest and authenticated user states was seamless, ensuring
+                smooth user experience across different app states.
               </p>
             </div>
             <!-- End Card Item -->
@@ -658,10 +768,57 @@
               data-aos-delay="600"
             >
               <span>06</span>
-              <h4>Secure and Easy Payments</h4>
+              <h4>
+                Discuss the area you identified for improvement after your
+                Iteration 2 retrospective; how did it go?
+              </h4>
+
               <p>
-                EzyMart offers a smooth, secure payment process for your peace
-                of mind, ensuring a safe transaction every time you shop.
+                <strong
+                  >Balancing Technical Development and Documentation:</strong
+                >
+                After our Iteration 2 retrospective, we recognized the need to
+                better balance technical development with documentation and
+                improve team communication.
+              </p>
+
+              <p>
+                <strong>Progress in Documentation:</strong> In our final
+                iteration, we made significant improvements—our documentation
+                became more polished, the GitLab repository was better
+                structured, and our commit messages and comments improved
+                overall code clarity.
+              </p>
+
+              <p>
+                <strong>Impact on Technical Progress:</strong> While shifting
+                some developers and testers to focus on documentation improved
+                organization, it came at a cost. This reallocation of resources
+                slowed technical progress, ultimately leading to the removal of
+                the Coupons feature.
+              </p>
+
+              <p>
+                <strong>Challenges in Communication:</strong> Initially, our
+                team had strong communication and motivation. However, under
+                pressure, check-ins became less frequent, leading to some
+                confusion in task coordination and decision-making.
+              </p>
+
+              <p>
+                <strong>Final Outcomes:</strong> Despite these challenges, we
+                successfully delivered 11 out of 12 planned features with full
+                testing. However, we identified some violations of SOLID
+                principles, particularly the Single Responsibility Principle
+                (SRP) and Dependency Inversion Principle (DIP), highlighting the
+                need for more frequent mid-iteration code reviews.
+              </p>
+
+              <p>
+                <strong>Key Takeaways:</strong> The iteration reinforced our
+                ability to adapt and work as a team, but balancing priorities
+                between development, documentation, and communication remains an
+                area for growth in future projects.
               </p>
             </div>
             <!-- End Card Item -->
@@ -928,11 +1085,10 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#services">Features</a></li>
+              <li><a href="#about">Our Vision</a></li>
+              <li><a href="#why-us">FAQ</a></li>
+              <li><a href="#contact">About</a></li>
             </ul>
           </div>
 
@@ -951,13 +1107,13 @@
             class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
           >
             <h4>Contact Us</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p>United States</p>
+            <p>66 Chancellors Circle</p>
+            <p>Winnipeg, MB</p>
+            <p>Canada</p>
             <p class="mt-4">
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              <strong>Phone:</strong> <span>+1 204-444-4444</span>
             </p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p><strong>Email:</strong> <span>ezymart@gmail.com</span></p>
           </div>
         </div>
       </div>
