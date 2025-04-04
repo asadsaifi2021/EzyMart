@@ -1249,7 +1249,7 @@ section,
 
 .member img {
   width: 100%;
-  height: 300px; /* or whatever height works best */
+  height: 400px; /* or whatever height works best */
   object-fit: cover;
   border-radius: 12px; /* optional: for rounded edges */
 }
