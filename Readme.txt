@@ -1,1 +1,1 @@
-
+EzyMart is a solution to simplify grocery shopping by offering a convenient and easy access to fresh produce for the local buyers. By providing a pleasant online shopping experience, EzyMart allows customers to browse, select, and purchase quality products from the comfort of their homes or workplaces.
