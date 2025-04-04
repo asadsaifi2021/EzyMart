@@ -1247,6 +1247,13 @@ section,
   background: rgba(253, 126, 20, 0.1);
 }
 
+.member img {
+  width: 100%;
+  height: 300px; /* or whatever height works best */
+  object-fit: cover;
+  border-radius: 12px; /* optional: for rounded edges */
+}
+
 .services .service-item.item-teal .icon {
   color: #20c997;
   background: rgba(32, 201, 151, 0.1);
