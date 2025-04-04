@@ -1700,6 +1700,10 @@ section,
   padding: 0;
 }
 
+.vision{
+  font-size: x-large;
+}
+
 .portfolio-details .portfolio-description .testimonial-item {
   padding: 30px 30px 0 30px;
   position: relative;
